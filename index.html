@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Quotes App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center vh-100">
+           <div class="text-center">
+            <h1 class="py-5">Quote of the Day</h1>
+            <p class="pb-3">Press the button below to recieve a random quote!</p>
+            <button class="btn btn-danger border border-1 my-2 py-3 px-5" onclick="getQuote()">New Quote</button> 
+            <div>
+                <p id="quote"></p>
+                <h3 id="author"></h3>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
